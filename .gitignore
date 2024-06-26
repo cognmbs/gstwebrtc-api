@@ -1,0 +1,52 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# ide settings
+.vscode
+.idea
+
+# misc
+.DS_Store
+.eslintcache
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git submodule
+# Do not ignore the submodule directory itself
+/external/gst-plugins-rs
+
+# Ignore submodule's node_modules in any subdirectory
+external/gst-plugins-rs/**/node_modules/
+
+# Ignore submodule's build output
+external/gst-plugins-rs/**/dist/
+external/gst-plugins-rs/**/build/
+
+# Ignore other generated files in the submodule
+external/gst-plugins-rs/**/logs/
+external/gst-plugins-rs/**/coverage/
+external/gst-plugins-rs/**/.nyc_output/
+external/gst-plugins-rs/**/.grunt/
+external/gst-plugins-rs/**/bower_components/
+external/gst-plugins-rs/**/.idea/
+external/gst-plugins-rs/**/.vscode/
+external/gst-plugins-rs/**/*.suo
+external/gst-plugins-rs/**/*.ntvs*
+external/gst-plugins-rs/**/*.njsproj
+external/gst-plugins-rs/**/*.sln
+external/gst-plugins-rs/**/*.sw?
+external/gst-plugins-rs/**/.DS_Store
+external/gst-plugins-rs/**/Thumbs.db
+external/gst-plugins-rs/**/.env

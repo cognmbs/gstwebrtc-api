@@ -1,0 +1,15 @@
+{
+	"name": "@cognimbus/gstwebrtc-api",
+	"version": "1.0.0",
+	"description": "Javascript API to integrate GStreamer WebRTC streams (webrtcsrc/webrtcsink) in a web browser",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": {
+		"name": "Matvey Neyman",
+		"email": "matvey@cogniteam.com",
+		"url": "https://www.cogniteam.com/"
+	},
+	"license": "MPL-2.0"
+}
